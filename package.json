@@ -1,0 +1,25 @@
+{
+  "name": "coverupserver",
+  "version": "1.0.0",
+  "description": "The server for CoverUp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoverupEdu/CoverUpServer.git"
+  },
+  "author": "CoverUp Education Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoverupEdu/CoverUpServer/issues"
+  },
+  "homepage": "https://github.com/CoverupEdu/CoverUpServer#readme",
+  "dependencies": {
+    "mongojs": "^2.3.0",
+    "morgan": "^1.7.0",
+    "bcrypt": "^0.7.8",
+    "restify": "^4.0.4"
+  }
+}
